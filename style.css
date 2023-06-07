@@ -33,7 +33,7 @@ font-family: Arial, Helvetica, sans-serif;
     width: 169px;
     height: 68px;
     left: 2rem;
-    position: absolute;
+    position: fixed;
     z-index: 4;
     top: 1rem;
     }

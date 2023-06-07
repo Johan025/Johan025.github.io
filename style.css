@@ -608,7 +608,7 @@ div.icones img:nth-last-child(2){
 /* fin version tablette */
 
 /* debut version telephone */
-@media screen  and  (max-width: 375px){
+@media screen  and  (max-width: 675px){
 
 header{
 position: fixed;

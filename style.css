@@ -3,15 +3,13 @@ list-style: none;
 text-decoration: none;
 }
 
-body {
+ body {
 font-family: Arial, Helvetica, sans-serif;
 }
 
     /* version ordinateur */
-   
+@media screen and (min-width:1200px) , (max-width:3000px) {
       
-    
-
    /* barre de navigation */
    header{
     background-color:white;
@@ -597,7 +595,7 @@ div.icones img:nth-last-child(2){
  }
 
  /* fin footer */
-
+    }
 
 /* fin version ordinateur */
 
@@ -1198,7 +1196,7 @@ div.icones img:nth-last-child(2){
 /* fin version tablette */
 
 /* debut version telephone */
-@media screen  and  (max-width: 675px){
+@media screen  and  (max-width: 695px){
 
 header{
 position: fixed;
@@ -1529,7 +1527,7 @@ width: 10cm;
   .galerie_3 .item_2 span{
   font-size: 19.7px;
   position: absolute;
-  left: 3.5rem;
+  left: 4rem;
   top: 36.5rem;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;

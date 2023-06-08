@@ -571,10 +571,10 @@ div.icones img:nth-last-child(1){
  left: 0rem;
 }
 
-div.icones img:nth-last-child(2){
+div.icones #fa{
   position: absolute;
-  top:20rem;
-  left: 5rem;
+  top:0rem;
+  left: 7rem;
  }
 
  div.icones img:nth-last-child(3){
@@ -1170,18 +1170,11 @@ div.icones img:nth-last-child(1){
  left: 0rem;
 }
 
-.fb{
+div.icones #fa{
   position: absolute;
   top:0rem;
   left: 7rem;
  }
-
- .face{
-  position: absolute;
-  top:0rem;
-  left: 7rem;
- }
-
 
  div.icones img:nth-last-child(3){
   position: absolute;
@@ -2077,10 +2070,10 @@ div.icones img:nth-last-child(1){
   left: 0rem;
  }
 
- div.icones img:nth-last-child(2){
+ div.icones #fa{
   position: absolute;
-  top:20rem;
-  left: 5rem;
+  top:0rem;
+  left: 7rem;
  }
  
   div.icones img:nth-last-child(3){

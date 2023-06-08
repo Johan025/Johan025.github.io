@@ -571,16 +571,10 @@ div.icones img:nth-last-child(1){
  left: 0rem;
 }
 
-.fb{
+div.icones img:nth-last-child(2){
   position: absolute;
-  top:0rem;
-  left: 7rem;
- }
-
- .face{
-  position: absolute;
-  top:0rem;
-  left: 7rem;
+  top:20rem;
+  left: 5rem;
  }
 
  div.icones img:nth-last-child(3){

@@ -571,12 +571,12 @@ div.icones img:nth-last-child(1){
  left: 0rem;
 }
 
-div.icones #fa{
+div.icones #fa img{
   position: absolute;
-  top:0rem;
-  left: 7rem;
+  top:20rem;
+  left: 0rem;
  }
-
+  
  div.icones img:nth-last-child(3){
   position: absolute;
   top:20rem;
@@ -1170,10 +1170,10 @@ div.icones img:nth-last-child(1){
  left: 0rem;
 }
 
-div.icones #fa{
+div.icones #fa img{
   position: absolute;
-  top:0rem;
-  left: 7rem;
+  top:20rem;
+  left: 0rem;
  }
 
  div.icones img:nth-last-child(3){
@@ -2070,10 +2070,10 @@ div.icones img:nth-last-child(1){
   left: 0rem;
  }
 
- div.icones #fa{
+div.icones #fa img{
   position: absolute;
   top:20rem;
-  left: 7rem;
+  left: 0rem;
  }
  
   div.icones img:nth-last-child(3){

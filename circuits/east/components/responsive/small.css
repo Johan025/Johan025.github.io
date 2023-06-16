@@ -1,0 +1,698 @@
+@import url("_include-media.scss");
+* {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(227, 216, 201);
+}
+
+html::-webkit-scrollbar {
+  background-color: rgba(242, 255, 255, 0.966);
+  width: 10px;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(53, 44, 44, 0.555);
+  height: 6px;
+  width: 6px;
+  border-radius: 10px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 320px) {
+  header {
+    position: fixed;
+    width: 100%;
+    height: 2cm;
+    background-color: #ffffff;
+  }
+  header ul {
+    display: block;
+    z-index: 4;
+    position: absolute;
+    left: 8.1rem;
+    top: 0rem;
+    padding-bottom: 14.5cm;
+  }
+  header ul li {
+    margin: 29px;
+  }
+  .logo {
+    position: fixed;
+    top: 1.4rem;
+    left: 2.4rem;
+    width: 3cm;
+    height: 1.5cm;
+    z-index: 6;
+  }
+  .header {
+    position: absolute;
+    top: 7.78rem;
+    transform: translateY(-150rem);
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.9450980392);
+    z-index: 4;
+    transition: 1s;
+  }
+  .versionAng {
+    margin: 7rem;
+    position: absolute;
+    top: 34rem;
+    left: 1.5rem;
+  }
+  #ang {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+  }
+  .logoBurger i {
+    font-size: 30px;
+    position: relative;
+    float: right;
+    right: -33rem;
+    top: 1.5rem;
+    border-radius: 50%;
+    padding: 7px;
+    border: 1.5px solid black;
+    z-index: -4;
+    color: black;
+  }
+  .logoBurger i:hover {
+    border: 0px solid #1ed661;
+    background-color: #1ed640;
+  }
+  .hideshow {
+    transform: translateY(-0.2rem);
+    transition: 0.5s;
+  }
+  .couvertureEst img {
+    width: 100%;
+    left: 0;
+    display: none;
+  }
+  .couvertureEst_responsive img {
+    width: 100%;
+    left: 0;
+    height: 60rem;
+    display: inline-block;
+  }
+  .title_east {
+    font-size: 39px;
+    left: 4rem;
+    top: 60rem;
+    text-align: center;
+  }
+  .east .desc {
+    font-size: 18px;
+    left: 4.2rem;
+    top: 71rem;
+    width: 82vw;
+  }
+  .east_day {
+    position: absolute;
+    top: 120rem;
+    left: -30rem;
+  }
+  .east_day .day1 {
+    width: 85vw;
+    height: 26rem;
+    position: absolute;
+    top: 27rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .east_day .day1 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 4rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day .day1 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day2 {
+    width: 85vw;
+    height: 39rem;
+    position: absolute;
+    top: 66rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .east_day .day2 h1 {
+    font-size: 23px;
+    position: absolute;
+    left: 1rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day .day2 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 6rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day3 {
+    width: 85vw;
+    height: 33rem;
+    position: absolute;
+    top: 118rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day .day3 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 4rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day .day3 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day4 {
+    width: 85vw;
+    height: 37rem;
+    position: absolute;
+    top: 163rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day .day4 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day .day4 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day5 {
+    width: 85vw;
+    height: 38rem;
+    position: absolute;
+    top: 207rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day .day5 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day .day5 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day6-7-8 {
+    width: 85vw;
+    height: 14rem;
+    position: absolute;
+    top: 257rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day .day6-7-8 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 5.4rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day .day9 {
+    width: 85vw;
+    height: 16rem;
+    position: absolute;
+    top: 283rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day .day9 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day .day9 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 8rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day10 {
+    width: 85vw;
+    height: 16rem;
+    position: absolute;
+    top: 310rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day .day10 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day .day10 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day6-7-8 {
+    width: 85vw;
+    height: 14rem;
+    position: absolute;
+    top: 257rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day .day6-7-8 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 5.4rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+}
+@media screen and (max-width: 340px) and (min-width: 320px) {
+  .east_day {
+    position: absolute;
+    top: 120rem;
+    left: -30rem;
+  }
+  .east_day .day1 {
+    width: 85vw;
+    height: 26rem;
+    position: absolute;
+    top: 27rem;
+    left: 61vh;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .east_day .day1 h1 {
+    font-size: 22px;
+    position: absolute;
+    left: 4rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day .day1 p {
+    font-size: 18px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day2 {
+    width: 85vw;
+    height: 41rem;
+    position: absolute;
+    top: 66rem;
+    left: 61vh;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .east_day .day2 h1 {
+    font-size: 22px;
+    position: absolute;
+    left: 1rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day .day2 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 8rem;
+    color: rgb(45, 45, 45);
+  }
+  .day3 {
+    width: 85vw;
+    height: 33rem;
+    position: absolute;
+    top: 118rem;
+    left: 800rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .day3 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 4rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .day3 p {
+    font-size: 18px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+}
+@media screen and (max-width: 764px) and (min-width: 360px) {
+  .logoBurger {
+    right: 36rem;
+    top: 0rem;
+    z-index: 4;
+  }
+  .title_east {
+    top: 67.4rem;
+  }
+  .east .desc {
+    top: 77rem;
+  }
+}
+@media screen and (max-width: 1023px) and (min-width: 765px) {
+  .logoBurger {
+    right: 36rem;
+    top: 0rem;
+    z-index: 4;
+    font-size: 35px;
+  }
+  header {
+    position: fixed;
+    width: 100%;
+    height: 2cm;
+    background-color: #ffffff;
+  }
+  header ul {
+    display: block;
+    z-index: 4;
+    position: absolute;
+    left: 8.1rem;
+    top: 0rem;
+    padding-bottom: 14.5cm;
+  }
+  header ul li {
+    margin: 29px;
+  }
+  .logo {
+    position: fixed;
+    top: 1.4rem;
+    left: 2.4rem;
+    width: 4.3cm;
+    height: 1.5cm;
+    z-index: 6;
+  }
+  .header {
+    position: absolute;
+    top: 7.78rem;
+    transform: translateY(-150rem);
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.9450980392);
+    z-index: 4;
+    transition: 1s;
+  }
+  .versionAng {
+    margin: 7rem;
+    position: absolute;
+    top: 34rem;
+    left: 1.5rem;
+  }
+  #ang {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+  }
+  .logoBurger i {
+    font-size: 30px;
+    position: relative;
+    float: right;
+    right: -33rem;
+    top: 1.5rem;
+    border-radius: 50%;
+    padding: 7px;
+    border: 1.5px solid black;
+    z-index: -4;
+    color: black;
+  }
+  .logoBurger i:hover {
+    border: 0px solid #1ed661;
+    background-color: #1ed640;
+  }
+  .hideshow {
+    transform: translateY(-0.2rem);
+    transition: 0.5s;
+  }
+  .title_east {
+    top: 61.4rem;
+    font-size: 50px;
+  }
+  .couvertureEst_responsive img {
+    width: 100%;
+    left: 0;
+    height: 60rem;
+    display: inline-block;
+  }
+  .east .desc {
+    font-size: 18px;
+    left: 4.2rem;
+    top: 71rem;
+    width: 95vw;
+  }
+  .east_day {
+    position: absolute;
+    top: 82rem;
+    left: -26rem;
+  }
+  .east_day .day1 {
+    width: 85vw;
+    height: 20rem;
+    position: absolute;
+    top: 27rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .east_day .day1 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 4rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day .day1 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day2 {
+    width: 85vw;
+    height: 22rem;
+    position: absolute;
+    top: 60rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .east_day .day2 h1 {
+    font-size: 23px;
+    position: absolute;
+    left: 1rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day .day2 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 6rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day3 {
+    width: 85vw;
+    height: 21rem;
+    position: absolute;
+    top: 94rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day .day3 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 4rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day .day3 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day4 {
+    width: 85vw;
+    height: 24rem;
+    position: absolute;
+    top: 127rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day .day4 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day .day4 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day5 {
+    width: 85vw;
+    height: 25rem;
+    position: absolute;
+    top: 163rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day .day5 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day .day5 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day6-7-8 {
+    width: 85vw;
+    height: 14rem;
+    position: absolute;
+    top: rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day .day6-7-8 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 5.4rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day .day9 {
+    width: 85vw;
+    height: 16rem;
+    position: absolute;
+    top: 283rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day .day9 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day .day9 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 8rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day10 {
+    width: 85vw;
+    height: 16rem;
+    position: absolute;
+    top: 310rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day .day10 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 1.4rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day .day10 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day .day6-7-8 {
+    width: 85vw;
+    height: 14rem;
+    position: absolute;
+    top: 257rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day .day6-7-8 h1 {
+    font-size: 21px;
+    position: absolute;
+    left: 5.4rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+}
+
+/*# sourceMappingURL=small.css.map */

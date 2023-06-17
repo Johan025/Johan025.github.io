@@ -3,8 +3,16 @@
 
 .east_day{
   position: absolute;
-  top: 120rem;
+  top: 130rem;
   left: 0rem;
+
+  .titre_east{
+    @include h1(47px, 600, 50rem);
+    color: $color_1;
+    top: -15rem;
+    width: 40rem;
+    position: absolute;
+  }
 
 
 .day1{
@@ -40,19 +48,9 @@
      }
 }
 
-.day3{
-    @include div(16cm, 38vh, 60vh, 67rem, $color_3);
-
-    h1{
-        @include h1(32px, 550, 4rem);
-    }
-     p{
-        @include p( 18.5px, 4rem ,  7rem);
-     }
-}
 
 .day4{
-    @include div(16cm, 38vh, 60vh, 67rem, $color_3);
+    @include div(16cm, 38vh, 60vh, 104rem, $color_3);
 
     h1{
         @include h1(24px, 550, 4rem);
@@ -63,7 +61,7 @@
 }
 
 .day5{
-    @include div(16cm, 38vh, 60vh, 104rem, $color_3);
+    @include div(16cm, 38vh, 60vh, 140rem, $color_3);
 
     h1{
         @include h1(32px, 550, 3rem);
@@ -74,7 +72,7 @@
 }
 
 .day6-7-8{
-    @include div(16cm, 30vh, 60vh, 140rem, $color_3);
+    @include div(16cm, 30vh, 60vh, 171rem, $color_3);
 
     h1{
         @include h1(32px, 550, 10rem);
@@ -83,7 +81,7 @@
 }
 
 .day9{
-    @include div(16cm, 25vh, 60vh, 171rem, $color_3);
+    @include div(16cm, 25vh, 60vh, 198rem, $color_3);
 
     h1{
         @include h1(24px, 550, 3rem);
@@ -94,7 +92,7 @@
 }
 
 .day10{
-    @include div(16cm, 20vh, 60vh, 198rem, $color_3);
+    @include div(16cm, 20vh, 60vh, 225rem, $color_3);
 
     h1{
         @include h1(24px, 550, 3rem);

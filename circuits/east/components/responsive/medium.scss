@@ -1,0 +1,314 @@
+@media screen and (max-width: 1023px) and (min-width:765px) {
+    .logoBurger{
+        right:36rem;
+        top: 0rem;
+        z-index: 4;
+        font-size: 35px;
+        }
+
+        header{
+            position: fixed;
+            width: 100%;
+            height: 2cm;
+            background-color: #ffffff;
+    
+              ul{
+                display: block;
+                z-index: 4;
+                position: absolute;
+                left: 8.1rem;
+                top: -0rem;
+                padding-bottom: 14.5cm;
+    
+                 li{
+                    margin: 29px;
+                    }
+                }
+            }
+            
+        .logo{
+            position: fixed;
+            top: 1.4rem;
+            left: 2.4rem;
+            width: 4.3cm;
+            height: 1.5cm;
+            z-index: 6;
+        }
+            
+             
+        .header{
+            position :absolute;
+            top: 7.78rem;
+            transform: translateY(-150rem);
+            width: 100%;
+            height: 100vh;
+            background-color: #fffffff1;
+            z-index: 4;
+            transition : 1s;
+        }
+              
+        .versionAng{
+            margin: 7rem;
+            position: absolute;
+            top: 34rem;
+            left: 1.5rem;
+        }
+            
+            #ang{
+            cursor: pointer;
+            position: absolute;
+            top:0;
+        }
+              
+        .logoBurger i{
+            font-size: 30px;
+            position: relative;
+            float: right; 
+             right: -33rem;
+            top: 1.5rem;
+            border-radius: 50%;
+            padding: 7px;
+            border: 1.5px solid black;
+            z-index: -4;
+            color:black;
+    
+              &:hover{
+                border: 0px solid #1ed661;
+                background-color: #1ed640;
+              }
+              
+        }
+            
+             
+        .hideshow{
+            transform: translateY(-0.2rem);
+            transition: 0.5s;
+        }    
+        
+        .title_east{
+         top: 61.4rem;
+         font-size: 50px;
+        }
+
+        .couvertureEst_responsive img{
+            width: 100%;
+            left:0;
+            height: 60rem;
+            display: inline-block;
+        }
+
+        .east .desc{
+            font-size: 18px;
+            left: 4.2rem;
+            top: 71rem;
+            width: 95vw;
+        }
+    
+        
+        .east_day{
+            position: absolute;
+            top: 92rem;
+            left: -26rem;
+            .titre_east{
+                @include h1(47px, 600, 50rem);
+                color: $color_1;
+                top: 10rem;
+                left: 50rem;
+                text-align: center;
+                width: 40rem;
+                position: absolute;
+              }
+          
+          .day1{
+              @include div(85vw, 20rem, 33rem, 27rem, $color_3);
+               text-align: center;
+              h1{
+                  @include h1(25px, 550, 4rem);
+              }
+               p{
+                  @include p( 19.5px, 1rem ,  7rem);
+               }
+          }
+    
+          .day2{
+            @include div(85vw, 22rem, 33rem, 60rem, $color_3);
+             text-align: center;
+            h1{
+                @include h1(23px, 550, 1rem);
+            }
+             p{
+                @include p( 19.5px, 1rem ,  6rem);
+             }
+        }
+    
+        .day3{
+            @include div(85vw, 21rem, 33rem, 94rem, $color_3);
+            h1{
+                @include h1(25px, 550, 4rem);
+            }
+             p{
+                @include p( 19.5px, 1rem ,  7rem);
+             }
+        }
+    
+        .day4{
+            @include div(85vw, 24rem, 33rem, 127rem, $color_3);
+            h1{
+                @include h1(21px, 550, 1.4rem);
+            }
+             p{
+                @include p( 19.5px, 1rem ,  7rem);
+             }
+        }
+    
+        .day5{
+            @include div(85vw, 25rem, 33rem, 163rem, $color_3);
+            h1{
+                @include h1(21px, 550, 1.4rem);
+            }
+             p{
+                @include p( 19.5px, 1rem ,  7rem);
+             }
+        }
+    
+        .day6-7-8{
+            @include div(85vw, 14rem, 33rem, 200rem, $color_3);
+            h1{
+                @include h1(21px, 550, 5.4rem);
+            }
+    
+        }
+    
+        .day9{
+            @include div(85vw, 16rem, 33rem, 226rem, $color_3);
+            h1{
+                @include h1(21px, 550, 1.4rem);
+            }
+             p{
+                @include p( 19.5px, 1rem ,  8rem);
+             }
+        }
+    
+        .day10{
+            @include div(85vw, 16rem, 33rem, 253rem, $color_3);
+            h1{
+                @include h1(21px, 550, 1.4rem);
+            }
+             p{
+                @include p( 19.5px, 1rem ,  7rem);
+             }
+        }
+    
+    }
+
+    .east_day_pangalane{
+        position: absolute;
+        top: 390rem;
+        left: 4rem;
+      
+        .titre_east{
+          @include h1(32px, 600, 18.5rem);
+          color: $color_1;
+          top: -18rem;
+          width: 70vw;
+          position: absolute;
+            left: 15rem;
+          span{
+            color: $color_1;
+            position: absolute;
+            left: 2rem;
+            top: 4rem;
+           }
+        }
+             
+      .day1{
+        @include div(85vw, 22rem, 3rem, -2rem, $color_3);
+         text-align: center;
+        h1{
+            @include h1(25px, 550, 4rem);
+        }
+         p{
+            @include p( 19.5px, 1rem ,  7rem);
+         }
+    }
+
+    .day2{
+      @include div(85vw, 22.5rem, 3rem, 32rem, $color_3);
+       text-align: center;
+      h1{
+          @include h1(23px, 550, 1rem);
+      }
+       p{
+          @include p( 19.5px, 1rem ,  6rem);
+       }
+  }
+
+  .day3{
+      @include div(85vw, 25rem, 3rem, 68rem, $color_3);
+      h1{
+          @include h1(25px, 550, 4rem);
+      }
+       p{
+          @include p( 19.5px, 1rem ,  7rem);
+       }
+  }
+
+  .day4{
+      @include div(85vw, 25rem, 3rem, 107rem, $color_3);
+      h1{
+          @include h1(20px, 550, 1.4rem);
+      }
+       p{
+          @include p( 19.5px, 1rem ,  7rem);
+       }
+  }
+
+  .day5{
+    @include div(85vw, 28rem, 3rem, 145rem, $color_3);
+    h1{
+        @include h1(20px, 550, 1.4rem);
+    }
+     p{
+        @include p( 19.5px, 1rem ,  7rem);
+     }
+}
+
+.day6{
+    @include div(85vw, 18rem, 3rem, 186rem, $color_3);
+    h1{
+        @include h1(18px, 550, 1rem);
+    }
+     p{
+        @include p( 19.5px, 1rem ,  7rem);
+     }
+}
+
+.day7{
+    @include div(85vw, 18rem, 3rem, 218rem, $color_3);
+    h1{
+        @include h1(20px, 550, 1rem);
+    }
+     p{
+        @include p( 19.5px, 1rem ,  7rem);
+     }
+}
+
+
+
+ }
+
+    .border_vertical4{
+            @include border(229rem, 5.4px,rgb(215, 141, 3), 45rem, 128rem);
+        }
+        
+    .border_vertical5{
+            @include border(233rem, 5.4px, rgb(215, 141, 3), 45rem, 394rem);
+        }
+        
+    
+
+
+        
+
+
+}

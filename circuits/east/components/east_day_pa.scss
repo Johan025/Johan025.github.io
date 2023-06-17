@@ -1,0 +1,110 @@
+@media screen and (min-width: 1024px) {
+.east_day_pangalane{
+    position: absolute;
+    top: 398rem;
+    left: 0rem;
+  
+    .titre_east{
+      @include h1(43px, 600, 33rem);
+      color: $color_1;
+      top: -18rem;
+      width: 80rem;
+      position: absolute;
+
+       span{
+        color: $color_1;
+        position: absolute;
+        left: 2rem;
+        top: 5rem;
+       }
+    }
+
+
+  
+    .day1{
+        @include div(16cm, 30vh, 60vh, 0rem, $color_3);
+    
+        h1{
+            @include h1(32px, 550, 4rem);
+        }
+         p{
+            @include p( 18.5px, 4rem ,  7rem);
+         }
+    }
+    
+    .day2{
+        @include div(16cm, 40vh, 60vh, 30rem, $color_3);
+    
+        h1{
+            @include h1(32px, 550, 4rem);
+        }
+         p{
+            @include p( 18.5px, 4rem ,  7rem);
+         }
+    }
+    
+    .day3{
+        @include div(16cm, 38vh, 60vh, 67rem, $color_3);
+    
+        h1{
+            @include h1(32px, 550, 4rem);
+        }
+         p{
+            @include p( 18.5px, 4rem ,  7rem);
+         }
+    }
+    
+    
+    .day4{
+        @include div(16cm, 38vh, 60vh, 104rem, $color_3);
+    
+        h1{
+            @include h1(21px, 550, 2rem);
+        }
+         p{
+            @include p( 18.5px, 4rem ,  7rem);
+         }
+    }
+    
+    .day5{
+        @include div(16cm, 48vh, 60vh, 140rem, $color_3);
+    
+        h1{
+            @include h1(32px, 550, 3rem);
+        }
+         p{
+            @include p( 18.5px, 4rem ,  7rem);
+         }
+    }
+    
+    .day6{
+        @include div(16cm, 30vh, 60vh, 181rem, $color_3);
+    
+        h1{
+            @include h1(21px, 550, 3rem);
+            top: 1rem;
+        }
+
+        p{
+            @include p( 18.5px, 4rem ,  9rem);
+         }
+    }
+    
+    .day7{
+        @include div(16cm, 25vh, 60vh, 212rem, $color_3);
+    
+        h1{
+            @include h1(24px, 550, 3rem);
+        }
+         p{
+            @include p( 18.5px, 4rem ,  7rem);
+         }
+    }
+    
+  
+  .border_vertical1{
+      @include border(200rem, 5.4px,rgb(215, 141, 3), 65rem, 125rem);
+  }
+  
+  }
+}

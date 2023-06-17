@@ -22,7 +22,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@media screen and (max-width: 1023px) and (min-width: 320px) {
+.up img {
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  top: 50rem;
+  right: 2rem;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 280px) {
   header {
     position: fixed;
     width: 100%;
@@ -33,12 +41,18 @@ body {
     display: block;
     z-index: 4;
     position: absolute;
-    left: 8.1rem;
-    top: 0rem;
-    padding-bottom: 14.5cm;
+    left: 6.1rem;
+    align-items: center;
+    justify-content: center;
+    top: -4rem;
+    padding-bottom: 12.5cm;
   }
   header ul li {
-    margin: 29px;
+    margin: 23px;
+  }
+  header ul li a {
+    font-size: 23px;
+    padding: 6px;
   }
   .logo {
     position: fixed;
@@ -53,10 +67,10 @@ body {
     top: 7.78rem;
     transform: translateY(-150rem);
     width: 100%;
-    height: 100vh;
-    background-color: rgba(255, 255, 255, 0.9450980392);
+    height: 43rem;
+    background-color: #1ed661;
     z-index: 4;
-    transition: 1s;
+    transition: 0.6s;
   }
   .versionAng {
     margin: 7rem;
@@ -109,19 +123,30 @@ body {
   .east .desc {
     font-size: 18px;
     left: 4.2rem;
-    top: 71rem;
+    top: 82rem;
     width: 82vw;
   }
   .east_day {
     position: absolute;
-    top: 120rem;
+    top: 118rem;
     left: -30rem;
+  }
+  .east_day .titre_east {
+    font-size: 35px;
+    position: absolute;
+    left: 40rem;
+    color: rgb(51, 25, 7);
+    font-weight: 600;
+    color: rgb(44, 187, 44);
+    top: 19.5rem;
+    width: 75vw;
+    position: absolute;
   }
   .east_day .day1 {
     width: 85vw;
     height: 26rem;
     position: absolute;
-    top: 27rem;
+    top: 32rem;
     left: 33rem;
     border-radius: 4px;
     background-color: rgb(215, 141, 3);
@@ -143,9 +168,9 @@ body {
   }
   .east_day .day2 {
     width: 85vw;
-    height: 39rem;
+    height: 34rem;
     position: absolute;
-    top: 66rem;
+    top: 72rem;
     left: 33rem;
     border-radius: 4px;
     background-color: rgb(215, 141, 3);
@@ -213,9 +238,9 @@ body {
   }
   .east_day .day5 {
     width: 85vw;
-    height: 38rem;
+    height: 18rem;
     position: absolute;
-    top: 207rem;
+    top: 213rem;
     left: 33rem;
     border-radius: 4px;
     background-color: rgb(215, 141, 3);
@@ -238,7 +263,7 @@ body {
     width: 85vw;
     height: 14rem;
     position: absolute;
-    top: 257rem;
+    top: 207rem;
     left: 33rem;
     border-radius: 4px;
     background-color: rgb(215, 141, 3);
@@ -254,7 +279,7 @@ body {
     width: 85vw;
     height: 16rem;
     position: absolute;
-    top: 283rem;
+    top: 270rem;
     left: 33rem;
     border-radius: 4px;
     background-color: rgb(215, 141, 3);
@@ -277,7 +302,7 @@ body {
     width: 85vw;
     height: 16rem;
     position: absolute;
-    top: 310rem;
+    top: 298rem;
     left: 33rem;
     border-radius: 4px;
     background-color: rgb(215, 141, 3);
@@ -300,7 +325,7 @@ body {
     width: 85vw;
     height: 14rem;
     position: absolute;
-    top: 257rem;
+    top: 243rem;
     left: 33rem;
     border-radius: 4px;
     background-color: rgb(215, 141, 3);
@@ -312,79 +337,432 @@ body {
     color: rgb(51, 25, 7);
     font-weight: 550;
   }
-}
-@media screen and (max-width: 340px) and (min-width: 320px) {
-  .east_day {
+  .east_day_pangalane {
     position: absolute;
-    top: 120rem;
-    left: -30rem;
+    top: 460rem;
+    left: 0rem;
   }
-  .east_day .day1 {
+  .east_day_pangalane .titre_east {
+    font-size: 23px;
+    position: absolute;
+    left: 2.5rem;
+    color: rgb(51, 25, 7);
+    font-weight: 600;
+    font-weight: 700;
+    color: rgb(44, 187, 44);
+    top: -18rem;
+    width: 87vw;
+    position: absolute;
+  }
+  .east_day_pangalane .titre_east span {
+    color: rgb(44, 187, 44);
+    position: absolute;
+    left: 2rem;
+    top: 4rem;
+  }
+  .east_day_pangalane .day1 {
     width: 85vw;
     height: 26rem;
     position: absolute;
-    top: 27rem;
-    left: 61vh;
+    top: -2rem;
+    left: 3rem;
     border-radius: 4px;
     background-color: rgb(215, 141, 3);
     text-align: center;
   }
-  .east_day .day1 h1 {
-    font-size: 22px;
-    position: absolute;
-    left: 4rem;
-    color: rgb(51, 25, 7);
-    font-weight: 550;
-  }
-  .east_day .day1 p {
-    font-size: 18px;
-    position: absolute;
-    left: 1rem;
-    top: 7rem;
-    color: rgb(45, 45, 45);
-  }
-  .east_day .day2 {
-    width: 85vw;
-    height: 41rem;
-    position: absolute;
-    top: 66rem;
-    left: 61vh;
-    border-radius: 4px;
-    background-color: rgb(215, 141, 3);
-    text-align: center;
-  }
-  .east_day .day2 h1 {
-    font-size: 22px;
-    position: absolute;
-    left: 1rem;
-    color: rgb(51, 25, 7);
-    font-weight: 550;
-  }
-  .east_day .day2 p {
-    font-size: 18.5px;
-    position: absolute;
-    left: 1rem;
-    top: 8rem;
-    color: rgb(45, 45, 45);
-  }
-  .day3 {
-    width: 85vw;
-    height: 33rem;
-    position: absolute;
-    top: 118rem;
-    left: 800rem;
-    border-radius: 4px;
-    background-color: rgb(215, 141, 3);
-  }
-  .day3 h1 {
+  .east_day_pangalane .day1 h1 {
     font-size: 25px;
     position: absolute;
     left: 4rem;
     color: rgb(51, 25, 7);
     font-weight: 550;
   }
-  .day3 p {
+  .east_day_pangalane .day1 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day2 {
+    width: 85vw;
+    height: 34rem;
+    position: absolute;
+    top: 35rem;
+    left: 3rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .east_day_pangalane .day2 h1 {
+    font-size: 23px;
+    position: absolute;
+    left: 1rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day_pangalane .day2 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 6rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day3 {
+    width: 85vw;
+    height: 30rem;
+    position: absolute;
+    top: 81rem;
+    left: 3rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day_pangalane .day3 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 4rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day_pangalane .day3 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day4 {
+    width: 85vw;
+    height: 34rem;
+    position: absolute;
+    top: 120rem;
+    left: 3rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day_pangalane .day4 h1 {
+    font-size: 20px;
+    position: absolute;
+    left: 1.4rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day_pangalane .day4 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day5 {
+    width: 85vw;
+    height: 39rem;
+    position: absolute;
+    top: 165rem;
+    left: 3rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day_pangalane .day5 h1 {
+    font-size: 20px;
+    position: absolute;
+    left: 1.4rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day_pangalane .day5 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day6 {
+    width: 85vw;
+    height: 20rem;
+    position: absolute;
+    top: 215rem;
+    left: 3rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day_pangalane .day6 h1 {
     font-size: 18px;
+    position: absolute;
+    left: 1rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day_pangalane .day6 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day7 {
+    width: 85vw;
+    height: 18rem;
+    position: absolute;
+    top: 244rem;
+    left: 3rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day_pangalane .day7 h1 {
+    font-size: 20px;
+    position: absolute;
+    left: 1rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day_pangalane .day7 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .border_vertical4 {
+    width: 5.4px;
+    height: 275rem;
+    background-color: rgb(215, 141, 3);
+    position: absolute;
+    top: 155rem;
+    left: 20rem;
+  }
+  .border_vertical5 {
+    width: 5.4px;
+    height: 240rem;
+    background-color: rgb(215, 141, 3);
+    position: absolute;
+    top: 474rem;
+    left: 20rem;
+  }
+}
+@media screen and (max-width: 380px) and (min-width: 320px) {
+  .border_vertical4 {
+    width: 5.4px;
+    height: 286rem;
+    background-color: rgb(215, 141, 3);
+    position: absolute;
+    top: 149rem;
+    left: 18rem;
+  }
+  .border_vertical5 {
+    width: 5.4px;
+    height: 250rem;
+    background-color: rgb(215, 141, 3);
+    position: absolute;
+    top: 494rem;
+    left: 18rem;
+  }
+  .east .desc {
+    position: absolute;
+    top: 95rem;
+  }
+  .east_day {
+    position: absolute;
+    top: 119rem;
+    left: -30rem;
+  }
+  .east_day .titre_east {
+    font-size: 35px;
+    position: absolute;
+    left: 38rem;
+    color: rgb(51, 25, 7);
+    font-weight: 600;
+    color: rgb(44, 187, 44);
+    top: 16rem;
+    width: 75vw;
+    position: absolute;
+  }
+  .east_day .day1 {
+    width: 85vw;
+    height: 26rem;
+    position: absolute;
+    top: 27rem;
+    left: 32.5rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .east_day .day2 {
+    width: 85vw;
+    height: 36rem;
+    position: absolute;
+    top: 66rem;
+    left: 32.5rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .east_day .day5 {
+    width: 85vw;
+    height: 19rem;
+    position: absolute;
+    top: 210rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day .day9 {
+    width: 85vw;
+    height: 20rem;
+    position: absolute;
+    top: 270rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day .day10 {
+    width: 85vw;
+    height: 16rem;
+    position: absolute;
+    top: 305rem;
+    left: 33rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day_pangalane {
+    position: absolute;
+    top: 470rem;
+    left: 0rem;
+  }
+  .east_day_pangalane .titre_east {
+    font-size: 21px;
+    position: absolute;
+    left: 1.5rem;
+    color: rgb(51, 25, 7);
+    font-weight: 600;
+    color: rgb(44, 187, 44);
+    font-weight: 600;
+    top: -18rem;
+    width: 90vw;
+    position: absolute;
+  }
+  .east_day_pangalane .titre_east span {
+    color: rgb(44, 187, 44);
+    position: absolute;
+    left: 2rem;
+    top: 4rem;
+  }
+  .east_day_pangalane .day1 {
+    width: 85vw;
+    height: 26rem;
+    position: absolute;
+    top: -2rem;
+    left: 3rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .east_day_pangalane .day2 {
+    width: 85vw;
+    height: 37rem;
+    position: absolute;
+    top: 35rem;
+    left: 3rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .east_day_pangalane .day3 {
+    width: 85vw;
+    height: 33rem;
+    position: absolute;
+    top: 81rem;
+    left: 3rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day_pangalane .day4 {
+    width: 85vw;
+    height: 38rem;
+    position: absolute;
+    top: 125rem;
+    left: 3rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day_pangalane .day4 h1 {
+    font-size: 18px;
+    position: absolute;
+    left: 0.4rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day_pangalane .day4 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day5 {
+    width: 85vw;
+    height: 42rem;
+    position: absolute;
+    top: 175rem;
+    left: 3rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day_pangalane .day5 h1 {
+    font-size: 20px;
+    position: absolute;
+    left: 1.4rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day_pangalane .day5 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day6 {
+    width: 85vw;
+    height: 23rem;
+    position: absolute;
+    top: 228rem;
+    left: 3rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day_pangalane .day6 h1 {
+    font-size: 18px;
+    position: absolute;
+    left: 0.5rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day_pangalane .day6 p {
+    font-size: 18.5px;
+    position: absolute;
+    left: 1rem;
+    top: 9rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day7 {
+    width: 85vw;
+    height: 18rem;
+    position: absolute;
+    top: 262rem;
+    left: 3rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day_pangalane .day7 h1 {
+    font-size: 20px;
+    position: absolute;
+    left: 1rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day_pangalane .day7 p {
+    font-size: 18.5px;
     position: absolute;
     left: 1rem;
     top: 7rem;
@@ -495,8 +873,21 @@ body {
   }
   .east_day {
     position: absolute;
-    top: 82rem;
+    top: 92rem;
     left: -26rem;
+  }
+  .east_day .titre_east {
+    font-size: 47px;
+    position: absolute;
+    left: 50rem;
+    color: rgb(51, 25, 7);
+    font-weight: 600;
+    color: rgb(44, 187, 44);
+    top: 10rem;
+    left: 50rem;
+    text-align: center;
+    width: 40rem;
+    position: absolute;
   }
   .east_day .day1 {
     width: 85vw;
@@ -619,7 +1010,7 @@ body {
     width: 85vw;
     height: 14rem;
     position: absolute;
-    top: rem;
+    top: 200rem;
     left: 33rem;
     border-radius: 4px;
     background-color: rgb(215, 141, 3);
@@ -635,7 +1026,7 @@ body {
     width: 85vw;
     height: 16rem;
     position: absolute;
-    top: 283rem;
+    top: 226rem;
     left: 33rem;
     border-radius: 4px;
     background-color: rgb(215, 141, 3);
@@ -658,7 +1049,7 @@ body {
     width: 85vw;
     height: 16rem;
     position: absolute;
-    top: 310rem;
+    top: 253rem;
     left: 33rem;
     border-radius: 4px;
     background-color: rgb(215, 141, 3);
@@ -677,21 +1068,207 @@ body {
     top: 7rem;
     color: rgb(45, 45, 45);
   }
-  .east_day .day6-7-8 {
-    width: 85vw;
-    height: 14rem;
+  .east_day_pangalane {
     position: absolute;
-    top: 257rem;
-    left: 33rem;
+    top: 390rem;
+    left: 4rem;
+  }
+  .east_day_pangalane .titre_east {
+    font-size: 32px;
+    position: absolute;
+    left: 18.5rem;
+    color: rgb(51, 25, 7);
+    font-weight: 600;
+    color: rgb(44, 187, 44);
+    top: -18rem;
+    width: 70vw;
+    position: absolute;
+    left: 15rem;
+  }
+  .east_day_pangalane .titre_east span {
+    color: rgb(44, 187, 44);
+    position: absolute;
+    left: 2rem;
+    top: 4rem;
+  }
+  .east_day_pangalane .day1 {
+    width: 85vw;
+    height: 22rem;
+    position: absolute;
+    top: -2rem;
+    left: 3rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .east_day_pangalane .day1 h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 4rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day_pangalane .day1 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day2 {
+    width: 85vw;
+    height: 22.5rem;
+    position: absolute;
+    top: 32rem;
+    left: 3rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+    text-align: center;
+  }
+  .east_day_pangalane .day2 h1 {
+    font-size: 23px;
+    position: absolute;
+    left: 1rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day_pangalane .day2 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 6rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day3 {
+    width: 85vw;
+    height: 25rem;
+    position: absolute;
+    top: 68rem;
+    left: 3rem;
     border-radius: 4px;
     background-color: rgb(215, 141, 3);
   }
-  .east_day .day6-7-8 h1 {
-    font-size: 21px;
+  .east_day_pangalane .day3 h1 {
+    font-size: 25px;
     position: absolute;
-    left: 5.4rem;
+    left: 4rem;
     color: rgb(51, 25, 7);
     font-weight: 550;
+  }
+  .east_day_pangalane .day3 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day4 {
+    width: 85vw;
+    height: 25rem;
+    position: absolute;
+    top: 107rem;
+    left: 3rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day_pangalane .day4 h1 {
+    font-size: 20px;
+    position: absolute;
+    left: 1.4rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day_pangalane .day4 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day5 {
+    width: 85vw;
+    height: 28rem;
+    position: absolute;
+    top: 145rem;
+    left: 3rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day_pangalane .day5 h1 {
+    font-size: 20px;
+    position: absolute;
+    left: 1.4rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day_pangalane .day5 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day6 {
+    width: 85vw;
+    height: 18rem;
+    position: absolute;
+    top: 186rem;
+    left: 3rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day_pangalane .day6 h1 {
+    font-size: 18px;
+    position: absolute;
+    left: 1rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day_pangalane .day6 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .east_day_pangalane .day7 {
+    width: 85vw;
+    height: 18rem;
+    position: absolute;
+    top: 218rem;
+    left: 3rem;
+    border-radius: 4px;
+    background-color: rgb(215, 141, 3);
+  }
+  .east_day_pangalane .day7 h1 {
+    font-size: 20px;
+    position: absolute;
+    left: 1rem;
+    color: rgb(51, 25, 7);
+    font-weight: 550;
+  }
+  .east_day_pangalane .day7 p {
+    font-size: 19.5px;
+    position: absolute;
+    left: 1rem;
+    top: 7rem;
+    color: rgb(45, 45, 45);
+  }
+  .border_vertical4 {
+    width: 5.4px;
+    height: 229rem;
+    background-color: rgb(215, 141, 3);
+    position: absolute;
+    top: 128rem;
+    left: 45rem;
+  }
+  .border_vertical5 {
+    width: 5.4px;
+    height: 233rem;
+    background-color: rgb(215, 141, 3);
+    position: absolute;
+    top: 394rem;
+    left: 45rem;
   }
 }
 
